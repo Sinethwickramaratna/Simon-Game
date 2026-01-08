@@ -78,6 +78,10 @@ async function nextLevel(){
     }
 }
 
+let day = new Date().getFullYear();
+
+$("footer").text("© "+day+" Sineth Wickramaratna");
+
 $(document).one("keydown", function () {
  nextLevel();
 })
